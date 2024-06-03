@@ -7,4 +7,4 @@
 ## 5. ls -ld /home/cluster_01
 ## 6. grep cluster_01 /etc/passwd (getent passwd cluster_01)
 ## 7. groups cluster_01
-## 8. sudo usermod -aG sudo cluster_01(or $USEDR) (group cluster_01, cluster_01:cluster_01 .sudo)
+## 8. sudo usermod -aG sudo cluster_01(or $USER) (group cluster_01, cluster_01:cluster_01 .sudo)
