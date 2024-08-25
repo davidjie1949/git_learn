@@ -2,10 +2,10 @@
 // git large file storage solution
 $git lfs install
 $git lfs track "*.psd" //give what you want file lager than 100MB.
-$git lfs ls-files // verify the files is being tracked
 $git add .gitattributes //check is being added correctly
 
 $git add file.psd
+$git lfs ls-files // verify the files is being tracked
 $git commit -m "Add design file"
 $git push origin main
 
